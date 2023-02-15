@@ -5,7 +5,6 @@
 def rec_sum(a, b):
     if b == 0:
         return a
-    print(a, b)
     return rec_sum(a + 1, b - 1)
 
 
